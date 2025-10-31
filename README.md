@@ -1,12 +1,8 @@
-# Angular Catalogo (Angular 15 scaffold)
+#Objetivo:
+Integrar los estilos e íconos desarrollados previamente en un proyecto de Angular, aplicando Bootstrap para mejorar el diseño y la presentación visual de los componentes.
 
-Este es un proyecto scaffold mínimo para la actividad:
-- Angular 15 compatible (skeleton files).
-- Bootstrap integrado (v5) desde node_modules en angular.json.
-- Componentes: `movies` (lista) y `movie` (detalle).
-- Routing configurado.
+#Descripción:
+En esta actividad se realizó la integración de Bootstrap en un proyecto de Angular 15, agregando los estilos necesarios y los íconos correspondientes.
+Se creó la vista del componente movies, donde se muestra una tabla con las películas de manera ordenada.
+Cada película incluye un botón con enlace al componente movie, donde se visualiza el detalle de la película seleccionada.
 
-Instrucciones rápidas:
-1. Descomprime este zip.
-2. Ejecuta `npm install` en la carpeta del proyecto.
-3. Ejecuta `npm start` o `npx ng serve` para correr la aplicación.
