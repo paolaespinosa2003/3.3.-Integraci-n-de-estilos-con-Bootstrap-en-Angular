@@ -1,0 +1,21 @@
+<div *ngIf="movie; else notFound">
+  <div class="card">
+    <div class="card-header bg-dark text-white">
+      <h3>Detalle de la Película</h3>
+    </div>
+    <div class="card-body">
+      <p><strong>Título:</strong> {{ movie.titulo }}</p>
+      <p><strong>Año:</strong> {{ movie.anio }}</p>
+      <p><strong>Director:</strong> {{ movie.director }}</p>
+      <p><strong>Género:</strong> {{ movie.genero }}</p>
+
+      <a routerLink="/movies" class="btn btn-secondary">
+        <i class="bi bi-arrow-left"></i> Regresar
+      </a>
+    </div>
+  </div>
+</div>
+
+<ng-template #notFound>
+  <div class="alert alert-warning">Película no encontrada.</div>
+</ng-template>

@@ -1,0 +1,4 @@
+/* Estilos globales */
+body { padding-top: 70px; }
+.navbar-brand { font-weight: 700; }
+h2.text-primary { color: #6f42c1; } /* match purple preference if desired */
